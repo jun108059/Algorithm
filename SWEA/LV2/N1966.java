@@ -2,16 +2,16 @@ package lv2;
 
 import java.util.Scanner;
 
-/* 19.08.20
+/* 19.08.23
  * SW Expert Academy
- * [1966] ¼ıÀÚ¸¦ Á¤·ÄÇÏÀÚ
- * ¿À¸§Â÷¼ø Á¤·Ä
+ * [1966] ìˆ«ìë¥¼ ì •ë ¬í•˜ì
+ * ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
  */
 public class N1966 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int test = scan.nextInt();
-		for (int test_case = 1; test_case <= test; test_case++) { // test case ¸¸Å­ Loop
+		for (int test_case = 1; test_case <= test; test_case++) { // test case ë§Œí¼ Loop
 			int number = scan.nextInt();
 			int[] sort_Arr = new int[number];
 			for(int i = 0; i < number; i++) {
