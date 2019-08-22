@@ -1,16 +1,16 @@
 package lv2;
 
 import java.util.Scanner;
-/* 19.08.20
+/* 19.08.23
  * SW Expert Academy
- * [1970] ½¬¿î °Å½º¸§µ·
- * µ·À» ÃÖ¼Ò °³¼ö¸¸ °Å½½·¯ ÁÖ±âÀ§ÇØ Å« È­Æó ¸ÕÀú °Å½½·¯ÁÖ´Â ÇÁ·Î±×·¥
+ * [1970] ì‰¬ìš´ ê±°ìŠ¤ë¦„ëˆ
+ * ëˆì„ ìµœì†Œ ê°œìˆ˜ë§Œ ê±°ìŠ¬ëŸ¬ ì£¼ê¸°ìœ„í•´ í° í™”í ë¨¼ì € ê±°ìŠ¬ëŸ¬ì£¼ëŠ” í”„ë¡œê·¸ë¨
  */
 public class N1970 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int test = scan.nextInt();
-		for (int test_case = 1; test_case <= test; test_case++) { // test case ¸¸Å­ Loop
+		for (int test_case = 1; test_case <= test; test_case++) { // test case ë§Œí¼ Loop
 			int price = scan.nextInt();
 			int [] money = new int[8];
 			while (price >= 10) {
