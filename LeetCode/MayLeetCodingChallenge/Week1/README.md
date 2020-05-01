@@ -1,7 +1,7 @@
 # May LeetCoding Challenge
 https://leetcode.com/discuss/general-discussion/595334/may-leetcoding-challenge
 
-![img](./img/LeetCode.PNG)   
+![img](../img/LeetCode.PNG)   
 
 
 ## Week 1: May 1st–May 7th
