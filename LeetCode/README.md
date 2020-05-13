@@ -12,3 +12,4 @@
 20200510 Find the Town Judge  
 20200511 Flood Fill  
 20200512 Single Element Sorted Array  
+20200513 Remove K Digits  
