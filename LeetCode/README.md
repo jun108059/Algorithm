@@ -13,3 +13,4 @@
 20200511 Flood Fill  
 20200512 Single Element Sorted Array  
 20200513 Remove K Digits  
+20200514 Implement Trie (Prefix Tree)
