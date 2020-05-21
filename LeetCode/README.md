@@ -14,3 +14,9 @@
 20200512 Single Element Sorted Array  
 20200513 Remove K Digits  
 20200514 Implement Trie (Prefix Tree)
+20200515 Maximum Sum Circular Subarray
+20200516 Odd Even Linked List
+20200517 Find All Anagrams in a String
+20200518 Permutation in String
+20200519 Online Stock Span
+20200520 Kth Smallest Element in a BST
