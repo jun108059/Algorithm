@@ -21,3 +21,8 @@
 20200519 Online Stock Span   
 20200520 Kth Smallest Element in a BST   
 20200521 Count Square Submatrices with All Ones   
+20200522 Sort Characters By Frequency   
+20200523 Interval List Intersections    
+20200524 Construct Binary Search Tree from Preorder Traversal   
+20200525 Uncrossed Lines   
+20200526 Contiguous Array   
