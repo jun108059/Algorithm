@@ -26,7 +26,7 @@
 20200524 Construct Binary Search Tree from Preorder Traversal   
 20200525 Uncrossed Lines   
 20200526 Contiguous Array   
-20200527 Possible Bipartition
-20200528 Counting Bits
-20200529 Course Schedule
-20200530 K Closest Points to Origin
+20200527 Possible Bipartition   
+20200528 Counting Bits   
+20200529 Course Schedule   
+20200530 K Closest Points to Origin   
