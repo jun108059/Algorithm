@@ -1,11 +1,7 @@
+# Algorithm Solving
 
-# YoungJun_Algorithm_Solving
 ![Language](https://img.shields.io/badge/Java-MainLanguage-red?logo=Java)
 ![SWEA](https://img.shields.io/badge/SWEA-Samsung-blue?logo=Samsung)
-![Stargazers](https://img.shields.io/badge/github-GIVEME--STAR-yellow?logo=GitHub)
-
-> 개발하는 만두
-
 
 ## 💻Algorithm Site
 
