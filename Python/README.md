@@ -59,3 +59,42 @@ True
 
 </details>
 
+## O(n) vs O(n2) 비교
+
+[👉코드 보기](on_vs_on2.py)
+
+<details><summary>🔻설명 보기</summary>
+
+다항식 계산으로 O(n) 시간 비교
+
+- `f(x) = a0x^0 + a1x^1 + ... + a(n-1)n^(x-1) • 
+- 위의 식은 전형적인 `n-1` 차 다항식이다
+- 다항식의 `n`개의 계수(coefficient)가 리스트 `A`에 저장되어 있다고 하자
+- **evaluate_n2(A, x)**:
+  - `f(x)`를 계산하고 그 값을 리턴하는 데, `O(n^2)` 시간의 계산이 필요한 함수
+- **evaluate_n(A, x)** :
+  - `f(x)`를 계산하고 그 값을 리턴하는 데, `O(n)` 시간의 계산이 필요한 함수
+
+### 실행시간 측정하기
+
+1. import time
+2. time.clock() 함수는 현재 clock 시간을 알려준다.
+3. 함수 `f(x)`의 시간을 측정하고 싶다면 다음과 같이 한다.
+
+```python
+import time
+before = time.clock()   # 현재 시간을 얻는다.
+f(x)                    # 함수 f를 호출한다.
+after = time.clock()    # 현재 시간을 얻는다.
+print(after - before)   # 함수 호출 전과 후의 시간 차이 (= 함수 수행시간)
+```
+
+다항식 계산을 위한 두 가지 버전 시간 측정해 보기
+
+1. 입력 크기 `n` 을 `input` 받은 후, `n-1` 차 다항식의 `n`개의 **계수**를 랜덤 생성하여 리스트 `A`에 저장함.
+   - `random` 모듈을 `import`한 후, `randint(-999, 999)`을 호출하여 랜덤 정수를 `n`개 생성하면 됨
+2. x 값을 `randint(-99, 99)`을 호출하여 생성함
+3. 두 함수 `evaluate_n2(A, x)`과 `evaluate_n(A, x)` 을 작성하여 각각 호출함
+4. 위의 실행시간 측정 방법을 이용하여 두 함수의 실행시간을 각각 측정하여 출력함\
+
+</details>
