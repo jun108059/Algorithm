@@ -1,10 +1,12 @@
 # Python 알고리즘
 
-## [재귀] Palindrome
+## 1.[재귀] Palindrome
 
 [👉코드 보기](palindrome.py)
 
 <details><summary>🔻설명 보기</summary>
+
+### 문제 설명
 
 - 좌우가 대칭인 문자열을 palindrome이라 한다 (예: radar, 1122, madam, a, 빈 문자열 등)
   - 문자열을 구성하는 문자는 영어 대문자와 소문자이며, 대문자와 소문자는 구별하지 않는다. (예: Radars palindrome)
@@ -59,11 +61,13 @@ True
 
 </details>
 
-## O(n) vs O(n2) 비교
+## 2.O(n) vs O(n2) 비교
 
 [👉코드 보기](on_vs_on2.py)
 
 <details><summary>🔻설명 보기</summary>
+
+### 문제 설명
 
 다항식 계산으로 O(n) 시간 비교
 
