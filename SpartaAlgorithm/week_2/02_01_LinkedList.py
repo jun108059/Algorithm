@@ -18,9 +18,26 @@ class LinkedList:
             cur = cur.next          
         cur.next = Node(value)
 
+    def print_all(self):
+        cur = self.head
+        while cur is not None:
+            print(cur.data)
+            cur = cur.next
+
+    def get_node(self, index):
+        return "index 번째 노드를 반환해보세요!"    
+
+
+
+
+linked_list = LinkedList(5)
+linked_list.append(12)
+
 
 linked_list = LinkedList(5)
 linked_list.append(12)
 # 이렇게 되면 5 -> 12 형태로 노드를 연결한 겁니다!
 linked_list.append(8)
 # 이렇게 되면 5 -> 12 -> 8 형태로 노드를 연결한 겁니다!
+linked_list.get_node(0) 
+# -> 5를 들고 있는 노드를 반환해야 합니다!
