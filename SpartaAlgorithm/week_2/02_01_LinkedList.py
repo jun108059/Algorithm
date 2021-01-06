@@ -25,8 +25,12 @@ class LinkedList:
             cur = cur.next
 
     def get_node(self, index):
-        return "index 번째 노드를 반환해보세요!"    
-
+        node = self.head
+        count = 0
+        while count < index:
+            node = node.next
+            count += 1
+        return node
 
 
 
