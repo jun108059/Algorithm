@@ -32,10 +32,17 @@ class LinkedList:
             count += 1
         return node
 
+    def add_node(self, index, value):
+        new_node = Node(value)
+        if index == 0:
+            new_node.next = self.head
+            self.head = new_node
+            return
 
-
-linked_list = LinkedList(5)
-linked_list.append(12)
+        node = self.get_node(index - 1)
+        next_node = node.next
+        node.next = new_node
+        new_node.next = next_node
 
 
 linked_list = LinkedList(5)
@@ -45,3 +52,5 @@ linked_list.append(8)
 # 이렇게 되면 5 -> 12 -> 8 형태로 노드를 연결한 겁니다!
 linked_list.get_node(0) 
 # -> 5를 들고 있는 노드를 반환해야 합니다!
+linked_list.add_node(0, 3)
+linked_list.print_all()
