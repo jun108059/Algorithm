@@ -32,6 +32,20 @@ class LinkedList:
             cur = cur.next
         return cur
 
+    # 2개의 포인터를 사용 - 길이 모두 알 필요없음!
+    def get_kth_node_from_last2(self, k):
+        slow = self.head
+        fast = self.head
+
+        for i in range(k):
+            fast = fast.next
+
+        while fast is not None:
+            slow = slow.next
+            fast = fast.next
+
+        return slㅇow
+
 
 linked_list = LinkedList(6)
 linked_list.append(7)
