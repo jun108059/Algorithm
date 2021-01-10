@@ -31,6 +31,15 @@ def is_existing_target_number_binary(target, array):
 
     return False
 
+# 중복 허용 x -> set 자료형 활용 풀이
+def is_available_to_order2(menus, orders):
+    menus_set = set(menus)
+    for order in orders:
+        if order not in menus_set:
+            return False
+    return True
+
+
 
 result = is_available_to_order(shop_menus, shop_orders)
 print(result)
