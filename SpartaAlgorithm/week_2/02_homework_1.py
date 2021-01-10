@@ -44,7 +44,7 @@ class LinkedList:
             slow = slow.next
             fast = fast.next
 
-        return slㅇow
+        return slow
 
 
 linked_list = LinkedList(6)
