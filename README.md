@@ -1,8 +1,8 @@
 <div align="center">
 <h1>Algorithm Solving<img src="https://media.giphy.com/media/JOSBoxT3dploPJ1ams/giphy.gif" width="35px"></h1>
 
-<img src="https://github.com/jun108059/jun108059/blob/master/svg/dev/languages/java.svg" alt="Java" style="vertical-align:top; margin:4px">
-<img src="https://github.com/jun108059/jun108059/blob/master/svg/dev/languages/python.svg" alt="python" style="vertical-align:top; margin:4px">
+<img src="https://user-images.githubusercontent.com/42997924/138549989-b579e243-7e5a-4250-b3dc-5af1c1bd3d2c.png" alt="Java" style="vertical-align:top; margin:4px" height="30">
+
 
 
 알고리즘 문제를 풀어보아요🙆‍♂️
