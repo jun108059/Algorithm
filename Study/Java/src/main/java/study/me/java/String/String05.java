@@ -7,7 +7,13 @@ import java.util.Scanner;
  */
 public class String05 {
 
-    public String solution(String str) {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.println(solution(str));
+    }
+
+    public static String solution(String str) {
         String answer;
         char[] s = str.toCharArray();
         int lt = 0, rt = str.length() - 1;
@@ -24,13 +30,6 @@ public class String05 {
         }
         answer = String.valueOf(s);
         return answer;
-    }
-
-    public static void main(String[] args) {
-        String05 T = new String05();
-        Scanner kb = new Scanner(System.in);
-        String str = kb.next();
-        System.out.println(T.solution(str));
     }
 
 }

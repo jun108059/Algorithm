@@ -8,7 +8,19 @@ import java.util.Scanner;
  */
 public class String04_02 {
 
-    public ArrayList<String> solution(int n, String[] str) {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        String[] str = new String[n];
+        for (int i = 0; i < n; i++) {
+            str[i] = kb.next();
+        }
+        for (String x : solution(n, str)) {
+            System.out.println(x);
+        }
+    }
+
+    public static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
         for (String x : str) {
             char[] s = x.toCharArray();
@@ -24,19 +36,6 @@ public class String04_02 {
             answer.add(tmp);
         }
         return answer;
-    }
-
-    public static void main(String[] args) {
-        String04_02 T = new String04_02();
-        Scanner kb = new Scanner(System.in);
-        int n = kb.nextInt();
-        String[] str = new String[n];
-        for (int i = 0; i < n; i++) {
-            str[i] = kb.next();
-        }
-        for (String x : T.solution(n, str)) {
-            System.out.println(x);
-        }
     }
 
 }

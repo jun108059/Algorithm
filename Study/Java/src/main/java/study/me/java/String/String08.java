@@ -7,7 +7,13 @@ import java.util.Scanner;
  */
 public class String08 {
 
-    public String solution(String s) {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        String str = kb.nextLine();
+        System.out.print(solution(str));
+    }
+
+    public static String solution(String s) {
         String answer = "NO";
         s = s.toUpperCase().replaceAll("[^A-Z]", "");
         String tmp = new StringBuilder(s).reverse().toString();
@@ -15,10 +21,5 @@ public class String08 {
         return answer;
     }
 
-    public static void main(String[] args) {
-        String08 T = new String08();
-        Scanner kb = new Scanner(System.in);
-        String str = kb.nextLine();
-        System.out.print(T.solution(str));
-    }
+
 }

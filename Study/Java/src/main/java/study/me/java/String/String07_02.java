@@ -7,17 +7,17 @@ import java.util.Scanner;
  */
 public class String07_02 {
 
-    public String solution(String str) {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.print(solution(str));
+    }
+
+    public static String solution(String str) {
         String answer = "NO";
         String tmp = new StringBuilder(str).reverse().toString();
         if (str.equalsIgnoreCase(tmp)) answer = "YES";
         return answer;
     }
 
-    public static void main(String[] args) {
-        String07_02 T = new String07_02();
-        Scanner kb = new Scanner(System.in);
-        String str = kb.next();
-        System.out.print(T.solution(str));
-    }
 }

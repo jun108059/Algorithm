@@ -7,7 +7,13 @@ import java.util.Scanner;
  */
 public class String07_01 {
 
-    public String solution(String str) {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.print(solution(str));
+    }
+
+    public static String solution(String str) {
         String answer = "YES";
         str = str.toUpperCase();
         int len = str.length();
@@ -17,10 +23,4 @@ public class String07_01 {
         return answer;
     }
 
-    public static void main(String[] args) {
-        String07_01 T = new String07_01();
-        Scanner kb = new Scanner(System.in);
-        String str = kb.next();
-        System.out.print(T.solution(str));
-    }
 }
