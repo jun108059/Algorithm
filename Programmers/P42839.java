@@ -7,7 +7,11 @@ import java.util.*;
  * 
  * 종이 조각으로 만들 수 있는 소수가 몇개인지?
 **/
-class Solution {
+class P42839 {
+    public static void main(String[] args) {
+
+    }
+
     private static int cnt = 0;
     private static String[] map;
     private static String[] result;

@@ -9,7 +9,11 @@ import java.util.Collections;
  * 
  * 참여선수 중 완주하지 못한 선수를 return
 **/
-class Solution {
+class P42576 {
+    public static void main(String[] args) {
+
+    }
+
     public String solution(String[] participant, String[] completion) {
         ArrayList<String> partList = new ArrayList<>(Arrays.asList(participant));
         ArrayList<String> completList = new ArrayList<>(Arrays.asList(completion));

@@ -1,3 +1,5 @@
+package Lv1_2;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -7,7 +9,10 @@ import java.util.Collections;
  * 두개의 수를 뽑아 더해서 만들 수 있는 모든 수를 배열에 오름차순으로 담아 return
 **/
 
-class Solution {
+public class P68644 {
+    public static void main(String[] args) {
+
+    }
     // 1. 더해서 만든 숫자 배열
     // 2. 중복 제거
     // 3. 오름차순

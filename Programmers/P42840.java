@@ -9,7 +9,10 @@ import java.util.*;
  * 중복 시 오름차순 정렬
 **/
 
-class Solution {
+class P42840 {
+    public static void main(String[] args) {
+
+    }
     public ArrayList<Integer> solution(int[] answers) {
         // 패턴
         // 1, 2, 3, 4, 5

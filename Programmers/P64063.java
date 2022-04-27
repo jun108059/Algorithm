@@ -7,7 +7,10 @@ import java.util.Map;
  * 고객의 호텔 방을 원하는 방 && 순서대로 배정
  */
 
-class Solution {
+class P64063 {
+    public static void main(String[] args) {
+
+    }
     // Hash
     Map<Long, Long> map = new HashMap<>();
     
