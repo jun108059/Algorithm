@@ -1,5 +1,12 @@
 fun main() {
-    isNStraightHand()
+    // isNStraightHand()
+    heightChecker()
+}
+
+// 1051. Height Checker
+fun heightChecker() {
+    // println(heightChecker(intArrayOf(1, 1, 4, 2, 1, 3)))
+    println(heightChecker(intArrayOf(5,1,2,3,4)))
 }
 
 // 1. Two Sum
