@@ -17,7 +17,7 @@ fun isNStraightHand(hand: IntArray, groupSize: Int): Boolean {
 
     while (map.isNotEmpty()) {
         val firstKey = map.firstKey()
-        for (i in firstKey..<firstKey + groupSize) {
+        for (i in firstKey until firstKey + groupSize) {
             if (!map.containsKey(i)) {
                 return false
             }
