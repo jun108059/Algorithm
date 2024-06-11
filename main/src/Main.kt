@@ -1,6 +1,13 @@
 fun main() {
     // isNStraightHand()
-    heightChecker()
+    // heightChecker()
+    relativeSortArray()
+}
+
+// 1122. Relative Sort Array
+fun relativeSortArray() {
+    // println(relativeSortArray(intArrayOf(2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19), intArrayOf(2, 1, 4, 3, 9, 6)).contentToString())
+    println(relativeSortArrayV2(intArrayOf(28, 6, 22, 8, 44, 17), intArrayOf(22, 28, 8, 6)).contentToString())
 }
 
 // 1051. Height Checker
