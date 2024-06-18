@@ -10,6 +10,11 @@ fun relativeSortArray() {
     println(relativeSortArrayV2(intArrayOf(28, 6, 22, 8, 44, 17), intArrayOf(22, 28, 8, 6)).contentToString())
 }
 
+// 75. Sort Colors
+fun sortColors() {
+    println(sortColors(intArrayOf(2, 0, 2, 1, 1, 0)))
+}
+
 // 1051. Height Checker
 fun heightChecker() {
     // println(heightChecker(intArrayOf(1, 1, 4, 2, 1, 3)))
