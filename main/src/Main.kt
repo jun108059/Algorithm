@@ -12,6 +12,8 @@ fun main() {
     println("P120810 : ${P120810.solution(5, 3)}") // Output: 2
     println("P120811 : ${P120811.solution(intArrayOf(9, -1, 0))}") // Output: 0
     println("P120812 : ${P120812.solution(intArrayOf(1, 2, 3, 2, 5))}") // Output: 2
+    printIntArray("P120813", P120813.solution(5)) // Output: 1, 3, 5
+    println("P120814 : ${P120814.solution(15)}") // Output: 3
 }
 
 fun printIntArray(problemNum: String, array: IntArray) {

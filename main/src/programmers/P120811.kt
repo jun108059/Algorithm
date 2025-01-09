@@ -11,3 +11,15 @@ class P120811 {
         fun solution(array: IntArray) = array.sorted()[array.size / 2]
     }
 }
+
+/*
+    * array.sorted 정리
+    * - array.sorted() : 오름차순 정렬
+      * 내부 로직에서 List 객체를 반환
+    * - array.sortedDescending() : 내림차순 정렬
+    * - array.sortedBy { it } : 오름차순 정렬
+    * - array.sortedByDescending { it } : 내림차순 정렬
+    * - array.sortedBy { it % 2 } : 홀수, 짝수 순으로 정렬
+    * - array.sortedBy { it.toString().length } : 길이 순으로 정렬
+    *
+ */
