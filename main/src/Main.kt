@@ -15,6 +15,9 @@ fun main() {
     printIntArray("P120813", P120813.solution(5)) // Output: 1, 3, 5
     println("P120814 : ${P120814.solution(15)}") // Output: 3
     println("P120815 : ${P120815.solution(10)}") // Output: 5
+    println("P120816 : ${P120816.solution(3, 10)}") // Output: 4
+    println("P120817 : ${P120817.solution(intArrayOf(1, 2, 3))}") // Output: 2.0
+    println("P120818 : ${P120818.solution(500000)}") // Output: 400000
 }
 
 fun printIntArray(problemNum: String, array: IntArray) {
