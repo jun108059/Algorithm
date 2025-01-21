@@ -24,6 +24,7 @@ fun main() {
     println("P120822 : ${P120822.solution("abc")}") // Output: cba
     println("P120823 : ${P120823.solution("4")}") // Output: 15
     printIntArray("P120824", P120824.solution(intArrayOf(1, 2, 3, 4, 5, 7))) // Output: 2, 4
+    println("P120825 : ${P120825.solution("test", 2)}") // Output: tteesstt
 }
 
 fun printIntArray(problemNum: String, array: IntArray) {
