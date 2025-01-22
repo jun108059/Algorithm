@@ -1,6 +1,11 @@
 import programmers.*
 
 fun main() {
+    println("P120826 : ${P120826.solution("testA", "A")}") // Output: test
+}
+
+@Deprecated("Use main() instead", ReplaceWith("test()"))
+fun test() {
     println("P12082 : ${P120802.solution(5, 3)}") // Output: 8
     println("P12083 : ${P120803.solution(5, 3)}") // Output: 2
     println("P12084 : ${P120804.solution(5, 3)}") // Output: 15
