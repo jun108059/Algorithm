@@ -1,7 +1,7 @@
 import programmers.*
 
 fun main() {
-    println("P120827 : ${P120829.solution(182)}") // Output: 4
+    println("P120830 : ${P120830.solution(64, 6)}") // Output: 120000
 }
 
 @Deprecated("Use main() instead", ReplaceWith("test()"))
@@ -31,6 +31,8 @@ fun test() {
     printIntArray("P120824", P120824.solution(intArrayOf(1, 2, 3, 4, 5, 7))) // Output: 2, 4
     println("P120825 : ${P120825.solution("test", 2)}") // Output: tteesstt
     println("P120826 : ${P120826.solution("testA", "A")}") // Output: test
+    println("P120829 : ${P120829.solution(182)}") // Output: 4
+    println("P120830 : ${P120830.solution(64, 6)}") // Output: 120000
 }
 
 fun printIntArray(problemNum: String, array: IntArray) {
