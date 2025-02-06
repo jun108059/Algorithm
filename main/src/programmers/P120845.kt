@@ -12,7 +12,6 @@ class P120845 {
     companion object {
         fun solution(box: IntArray, n: Int): Int {
             val sortedBox = box.sorted()
-            val (a, b, c) = sortedBox
             val (x, y, z) = sortedBox.map { it / n }
             return x * y * z
         }
