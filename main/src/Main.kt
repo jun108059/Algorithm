@@ -1,9 +1,7 @@
 import programmers.*
 
 fun main() {
-    println("P120839 : ${P120839.solution("205")}") // Output: 052
-    println("P120840 : ${P120840.solution(5, 3)}") // Output: 10
-
+    println("P120846 : ${P120846.solution(10)}") // Output: 5
 }
 
 @Deprecated("Use main() instead", ReplaceWith("test()"))
@@ -42,6 +40,23 @@ fun test() {
     println("P120836 : ${P120836.solution(20)}") // Output: 6
     println("P120837 : ${P120837.solution(999)}") // Output: 201
     println("P120838 : ${P120838.solution(".... . .-.. .-.. ---")}") // Output: hello
+    println("P120839 : ${P120839.solution("205")}") // Output: 052
+    println("P120840 : ${P120840.solution(5, 3)}") // Output: 10
+    println("P120841 : ${P120841.solution(intArrayOf(12, 5))}") // Output: 1
+    println(
+        "P120842 : ${
+            P120842.solution(
+                intArrayOf(1, 2, 3, 4, 5, 6, 7, 8),
+                2
+            )
+        }"
+    ) // Output: [[1, 2], [3, 4], [5, 6], [7, 8]]
+    println("P120843 : ${P120843.solution(intArrayOf(1, 2, 3, 4, 5, 6), 5)}") // Output: 3
+    printIntArray(
+        "P120844 : ",
+        P120844.solution(intArrayOf(4, 455, 6, 4, -1, 45, 6), "left")
+    ) // Output: [455, 6, 4, -1, 45, 6, 4]
+    println("P120845 : ${P120845.solution(intArrayOf(10, 8, 6), 3)}") // Output: 12
 }
 
 fun printIntArray(problemNum: String, array: IntArray) {
