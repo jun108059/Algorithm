@@ -2,6 +2,7 @@ import programmers.*
 
 fun main() {
     println("P120847 : ${P120847.solution(intArrayOf(1, 2, 3, 4, 5))}") // Output: 20
+    println("P120848 : ${P120848.solution(3628800)}") // Output: 10
 }
 
 @Deprecated("Use main() instead", ReplaceWith("test()"))
